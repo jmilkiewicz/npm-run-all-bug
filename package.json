@@ -1,0 +1,21 @@
+{
+  "name": "npm-run-all-bug",
+  "config": {
+    "reporter":"spec"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:t": "mocha --reporter  ${npm_package_config_reporter}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "2.3.*",
+    "npm-run-all":"*"
+  }
+
+}
