@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
+    "test-2": "npm-run-all test:t",
     "test:t": "mocha --reporter  ${npm_package_config_reporter}"
   },
   "keywords": [],
